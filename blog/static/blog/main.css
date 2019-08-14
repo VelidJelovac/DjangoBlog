@@ -108,8 +108,8 @@ a.article-title:hover {
 }
 
 .fa:hover {
-    opacity: 0.8;
     text-decoration: none;
+    background: #FFFFFF;
 }
 
 .fa-facebook {
@@ -117,9 +117,17 @@ a.article-title:hover {
     color: white;
 }
 
+.fa-facebook:hover {
+    color: #3B5998;
+}
+
 .fa-twitter {
     background: #55ACEE;
     color: white;
+}
+
+.fa-twitter:hover {
+    color: #55ACEE;
 }
 
 .fa-instagram {
@@ -127,12 +135,24 @@ a.article-title:hover {
     color: white;
 }
 
+.fa-instagram:hover {
+    color: #BC2A8D;
+}
+
 .fa-reddit {
     background: #ff5700;
     color: white;
 }
 
+.fa-reddit:hover {
+    color: #ff5700;
+}
+
 .fa-tumblr {
     background: #2c4762;
     color: white;
+}
+
+.fa-tumblr:hover {
+    color: #2c4762;
 }
